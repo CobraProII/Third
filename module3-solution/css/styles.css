@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#header-nav  {
+  background-color: gray;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.hidden-xs {
+  display: flex;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+.navbar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+h2 {
+    color: black;
+    margin: auto auto 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container {
+    width: 95%;
+}
+
+.row {
+    border: 1px solid black;
+    background-color: gray;
+}
+
+h3 {
+    margin-top: 5px;
+    color: black;
+}
+
+
+p {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#nav-list {
+    margin-top: 10px;
+    border: 1px solid black;
+    clear: both;
+    background-color: rgb(172, 161, 161);
+    position: relative;
+    top: 25px;
+    
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+    color: black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+    color: black;
+    position: relative;
+    bottom: 10px;
+  }
+
+
+@media (max-width: 767px){
+    #collapsable-nav a {
+        font-size: 1.2em;
+        flex: 3;
+        clear: both;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%; 
+      }
+    #collapsable-nav a:hover{
+      background-color: black;
+      color: rgb(196, 178, 178);
+    }
+    hr {
+      display: flex, !important;
+      color: black;
+    }
+
+}
